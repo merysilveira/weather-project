@@ -1,0 +1,37 @@
+@import "./variables.scss";
+
+@font-face {
+  font-family: $fontRegular;
+  src: url('../fonts/Helvetica.woff') format('woff');
+}
+
+@font-face {
+  font-family: $fontLight;
+  src: url('../fonts/HelveticaLight.woff') format('woff');
+}
+
+@font-face {
+  font-family: $fontBold;
+  src: url('../fonts/HelveticaBold.woff') format('woff');
+}
+
+* {
+  font-family: $fontRegular, 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+}
